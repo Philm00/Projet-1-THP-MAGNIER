@@ -1,0 +1,112 @@
+html, body{
+    margin: 0;
+    height: 100%; 
+
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 15px; 
+}
+
+#nav a {
+    margin-right: 20px; 
+
+}
+
+#nav a.topimage {
+    width:20px;
+    height:20px;
+    background:red;
+    border-radius: 50%;
+}
+
+#middle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+
+}
+
+#logo {
+    text-align: center;
+}
+
+#searchbarbox {
+    text-align: center; 
+    margin-top: 20px;
+    position: relative; 
+
+}
+
+#loupe, #mic {
+    position: absolute;
+    top: 0; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#loupe {
+    left: 10px; 
+}
+#mic {
+    right:10px; 
+}
+
+
+#searchbar {
+    padding-top: 10px;
+    paddind-bottom:10px; 
+    outline: 0; 
+    width:500px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    border: 1px solid #eee
+
+}
+#searchbar:hover {
+    box-shadow: 0 0 10px 2px #000;
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button{
+    margin-left: 10px;
+    margin-right: 10px; 
+    padding: 5px 10px; 
+    cursor:pointer; 
+    background: rgb(159, 156, 156);
+    border: 2px solid transparent;
+}
+.button:hover {
+    box-shadow: 0 0 2px 1px black ;
+    border: 2px solid #eee ; 
+}
+
+#links {
+    margin-top: 20px; 
+    text-align: center;
+}
+
+body {
+    display:flex; 
+    flex-direction:column; 
+}
+
+
+#footer {
+    background:#70757a; 
+}
+
+#footer-content {
+    text-align: center;
+    background: #70757a; 
+}
